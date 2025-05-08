@@ -1,0 +1,30 @@
+const express = require('express');
+const app = express();
+const port = 4000;
+
+app.use(express.static('public'));
+
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Server running on http://0.0.0.0:${port}`);
+});
+mg pubic bnvun tyat index.html takaycha
+and te yeil mg
+Deployment:
+Create one ec2 instance
+ssh -i "pemkey" ubuntu@public ip
+sudo apt update && sudo apt upgrade -y
+curl -fsSL http://Deb.nodesource.com/setup_18.x | sudo -E bash-
+sudo apt install -y node js
+node -v
+npm -v
+go to git bash
+scp -i "path to key" -r "path to folder" ubuntu@public ip :/home/ubuntu
+come back to cmd
+ls /name/ubuntu
+cd foldername
+npm install
+node index.js
+go to ec2 instance and edit the inbound rules
+(3000) 0.0.0.0.00
+save
+visit http://public ip:3000
