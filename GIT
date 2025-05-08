@@ -1,0 +1,12 @@
+Create Folder
+git --version
+Create account on git
+git init
+git add .
+git status
+git remote add origin "url'
+git commit
+git commit -m "First Commit"
+git status
+git push -u origin master
+verify
