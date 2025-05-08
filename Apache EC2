@@ -1,0 +1,13 @@
+Launch Instance
+ssh -i (pem key path) ec2-user@public ip
+sudo yum update -y
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
+sudo -i
+cd/var/www/html
+write
+ctrl+d
+systemctl restart httpd
+paste the public url
