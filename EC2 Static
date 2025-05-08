@@ -1,0 +1,18 @@
+Create instance
+ssh -i "pem.file" ec2-user@public ip
+terminal
+sudo su-
+whoami
+exit
+search fress css
+wget "tyachi link"
+ls
+unzip ___
+sudo yum install httpd -y
+sudo systemctl start httpd
+sudo mv (filename)/var/www/html
+sudo su-
+cd /var/www/html
+ls
+sudo systemctl restart httpd
+mv (filename) /* .
