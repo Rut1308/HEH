@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <title>JQuery Mobile</title>
+</head>
+<div>
+    <div data-role="page"id='home'>
+        <div data-role="header">
+            <h1>Simple Cafe</h1>
+            </div>
+           <div data-role="content">
+            <h2>Welcome to our cafe</h2>
+            <p>Your One stop solution for the authentic cafe</p>
+            <a href="#menu" class="ui-btn">Menu</a>
+            <a href="#contact" class="ui-btn">Contact</a>
+           </div>
+           <div data-role="footer">
+            <h1>&copy;Simple Cafe</h1>
+           </div>
+        </div>
+        <div data-role="page"id='menu'>
+            <div data-role="header">
+                <h1>Menu</h1>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview">
+                    <li>Tea</li>
+                    <li>Coffee</li>
+                    <li>Sandwich</li>
+                    <li>Avacado Toast</li>
+                    <li>Pizza</li>
+                    <li>Burger</li>
+                    <li>Pasta</li>
+                    <li>Soup</li>
+                </ul>
+                <a href="#home" class="ui-btn">Back to Home</a>
+            </div>
+            <div data-role="footer">
+                <h1>&copy;Simple Cafe</h1>
+               </div>
+        </div>
+        <div data-role="page"id='contact'>
+            <div data-role="header">
+                <h1>Contact Us</h1>
+            </div>
+            <div data-role="content">
+                <p><strong>Phone:</strong>1234567</p>
+                <p><strong>Address:</strong>Pune</p>
+                <p><strong>Email:</strong>cafe@gmail.com</p>
+            </div>
+            <a href="#home"class='ui-btn'>Back to Home</a>
+        </div>
+        <div data-role="footer">
+            <h1>&copy;Simple Cafe</h1>
+           </div>
+        </div>
+    
+</body>
+</html>
