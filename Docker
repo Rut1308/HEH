@@ -1,0 +1,12 @@
+sudo docker pull openjdk
+sudo docker images
+sudo docker ps
+sudo docker run --name Java -it -d openjdk
+sudo docker ps
+sudo docker exec -it Java jshell
+mg sagla code karycha
+docker stop(container id)
+docker ps
+docker rm(container id)
+docker rmi (image id)
+docker images
