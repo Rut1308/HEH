@@ -1,0 +1,22 @@
+go to portal.cloud.hashicorp.com/vagrant/discover
+ubuntu@debian
+remove the hashes of vagrant file
+public and private ip
+replace 56.33
+vd also remove and exit
+on git bash
+vagrant up
+vagrant ssh
+sudo -i
+vi /etc/hostname
+press i
+give name wordpress
+press esc esc
+:wq!
+hostname wordpress
+sudo -i
+
+on google
+install and configure wordpress on ubuntu
+then copy pasre
+ip addr show
