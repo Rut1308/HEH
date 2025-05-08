@@ -1,0 +1,1 @@
+scp filename vagrant@ip:/home/vagrant
