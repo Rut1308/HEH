@@ -1,0 +1,28 @@
+ Phone__c – Only 10-digit Numbers
+NOT(
+  REGEX(Phone__c, "^[0-9]{10}$")
+)
+
+Enrollment_Date__c – Must Be Today or Earlier
+formula
+Enrollment_Date__c > TODAY()
+
+ First_Name__c and Last_Name__c – Required
+formula
+ISBLANK(First_Name__c) || ISBLANK(Last_Name__c)
+
+DOB (Date of Birth) Cannot Be in the Future
+formula
+DOB__c > TODAY()
+
+Registration_Date__c Must Be Today or Earlier
+formula
+Registration_Date__c > TODAY()
+
+Appointment_Date__c Cannot Be in the Past
+formula
+Appointment_Date__c < TODAY()
+
+Reason_for_Visit__c – Required
+formula
+ISBLANK(Reason_for_Visit__c)
